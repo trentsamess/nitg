@@ -1,0 +1,34 @@
+{
+    "services": [
+        {
+            "title": "Website Development",
+            "subtitle": "There is never a second first impression",
+            "text": "Your business surrounding is visiting your website as the first source of information. Your website is your figure head to the customer, to the market, to the world. We provide you with a unique and individual website, governed by high-quality webdesign and based on the newest technoligies. Show your company in the best possible way, let your unique capabilities and expertise shine. 100% SEO-optimized.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/03/optimizedNITG_Website_Development_Img.jpg"
+        },
+        {
+            "title": "Software Engineering",
+            "subtitle": "Your branches and rooting",
+            "text": "We provide you with tailor-made IT business solutions, developed by your request and based on our own business analysis. Streamline your internal processes, save operational costs and free up manpower to concentrate on your core business.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/03/optimizedshutterstock_696061426_reworked.jpg"
+        },
+        {
+            "title": "IT Outsourcing",
+            "subtitle": "Best professionals for your business",
+            "text": "The number and complexity of IT business processes grows exponentially, once SME scale up their business. Let our professional teams be your partner on your journey to success. We meet with you, analyse hand in hand with you your needs and demand and compile a team of experienced senior and junior developers especially dedicated to your company – be it for a temporary project, or long-term cooperation. Free up manpower for sales and R&D and redirect your budget to growth, while our professionals take care of your demands.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/03/shuoptimizedtterstock_1157314075_reworked-e1544357724318.jpg"
+        },
+        {
+            "title": "IT Consulting",
+            "subtitle": "Scale up your business with the right advisor",
+            "text": "The most successful business projects are often those that are driven by people who have the authority, vision and influence to initiate the required changes in the business. An extrinsic view and fresh expertise is vital hereby, in order to help business owners identify changes of environment and market on time and avoid single-loop analysis of problems. Furhtermore, Change Management projects require significant experience and specific skills, which are typically not found within enterprises. Our experienced change managers support – and, if required, lead – your projects, tackling structural and process changes in the company.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/03/optimizedshutterstock_1020878011_reworked-1024x683.jpg"
+        },
+        {
+            "title": "Social Media Marketing",
+            "subtitle": "Give Your brand a voice",
+            "text": "Starting a Social Marketing campaign is easy. Starting the right Social Marketing campaign, specifically composed for and aligned to your business and your audience, and professionally executed, is incredibly difficult and requires experts at work. With our dedicated team of Social Marketing specialists we offer to you tailor-made solutions for your needs. We cover the whole spectrum and life-cycle of a Social Marketing campaign, ensure high quality execution, constant campaign development and strategic advisory. Let’s join forces and give Your brand a unique voice!",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/06/socialmediaimage.jpg"
+        }
+    ]
+}

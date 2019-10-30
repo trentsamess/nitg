@@ -1,0 +1,33 @@
+.head-image{
+    width: 100%;
+    height: 380px;
+}
+
+.paradise-container {
+    position: relative;
+    text-align: left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 350px;
+    margin-bottom: 100px;
+    width: 500px;
+  }
+
+  .paradise_name {
+    font-size: 55px;
+    font-weight: 700;
+    color: #1e2c40;
+    line-height: 65px;
+  }
+
+  .paradise_subtitle {
+  font-size: 18px;
+  color: #1e2c40;
+  line-height: 28px;
+  text-align: left;
+  }

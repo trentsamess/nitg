@@ -1,0 +1,30 @@
+{
+    "partners": [
+        {
+            "website": "https://morenergy.net",
+            "text": "MorEnergy GmbH is our innovative partner in respect of all renewable energies and decentralised electricity supply aspects and in this way makes a valuable contribution to the energy system. A special focus is given to the impedance determination of network connection and installations. For this, the morEnergy team has developed a frequency and time-depending measuring instrument for the low and medium voltage level. morEnergy and NORTH IT form a symbiosis to bring status messages from energy producers to the World Wide Web and thus to detect disturbances before they can arise – preventive maintenance.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/01/Moreenergy-Logo_hellgruen-4-pdf.jpg"
+        },
+        {
+            "website": "http://www.rebase3.com/de",
+            "text": "Rebase3 offers its global customers more than 15 years of experience in regional, national and global IT projects. Rebase3 brings together with NORTH IT the experiences of various consulting companies(IBM, KPMG, BearingPoint, SCHNEIDER GROUP). Rebase3 and NORTH IT ensure the success of offshore and nearshore projects. Together we have suitable partners to implement projects successfully and cost-consciously. We focus on what we really do best. REBASE3 and NORTH IT are for their IT-project successfully be implemented.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/01/logo.png"
+        },
+        {
+            "website": "https://www.dbwc-minsk.com",
+            "text": "The German-Belarusian Business Club (DBWC) is the meeting point of all active entrepreneurs in Belarus which have any relation to Germany. The members of NORTH IT founding team have got to know each other there. Therefore, the DBWC can be quietly called the nucleus of NORTH IT. Come along, it’s worth it. DBWC is just amazing people and interesting topics in a pleasant atmosphere.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/02/Logo-aktuell.png"
+        },
+        {
+            "website": "https://www.seosupport.de",
+            "text": "The seosupport GmbH is an owner-managed SME agency focusing on search engine optimization (SEO) and online marketing in Berlin. Seosupport convinces with a 13-year success story in the field of search engine marketing. With more than 100 image campaigns, more than 750 SEO campaigns and more than 1000 webanalytics, the company has helped countless customers with search engine optimization, search engine marketing and other online marketing measures to achieve a sustained increase in sales – throughout Germany and abroad.",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/02/SeoSupport_Profilbild.png-e1552691138909.png"
+        },
+        {
+            "website": "https://www.velcom.by/en",
+            "text": "Velcom A1, since 2007 member of the Telekom Austria Group, one of the biggest Telecommunication Holdings in Central and Eastern Europe, is one of the market leaders on the mobile communication and internet services market in Belarus. Velcom pays key attention to its service quality, which is secured through frequency planning, ongoing network quality monitoring and latest technology in use. Besides common basic services for telecommunication and internet Velcom also runs Belarus’ biggest Data Center, equipped with latest technology and meeting international security and quality standards, and so can provide it’s corporate clients also with all applicable services, from simple server hosting, via predefined mail, domain and other packages (also from microsoft), up to tailor-made cloud solutions designed specially for your needs",
+            "img": "https://northitgroup.com/wp-content/uploads/2019/08/A1_Logo_Red.jpg"
+        }
+        
+    ]
+}

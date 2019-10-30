@@ -1,0 +1,158 @@
+.directions__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.directions__item {
+	background-color: #ffffff;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 190px;
+	margin: 10px 0;
+	width: calc(50% - 10px);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+}
+
+.directions__item--socialmedia {
+	width: 100%;
+}
+
+.directions__item::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.directions__item--website::after {
+	background-image: url(https://northitgroup.com/wp-content/uploads/2019/03/OptimizedNITG_development_Img.jpg);
+}
+
+.directions__item--outsourcing::after {
+	background-image: url(https://northitgroup.com/wp-content/uploads/2019/03/OptimizedNITG_outsoursing_Img.jpg);
+}
+
+.directions__item--engineering::after {
+	background-image: url(https://northitgroup.com/wp-content/uploads/2019/03/OptimizedNITG_Software_Engineering_Img.jpg);
+}
+
+.directions__item--consulting::after {
+	background-image: url(https://northitgroup.com/wp-content/uploads/2019/03/OptimizedNITG_consalting_Img.jpg);
+}
+
+.directions__item--socialmedia::after {
+	background-image: url(https://northitgroup.com/wp-content/uploads/2019/06/OptimizedNITG_socialmedia_Img.jpg);
+}
+
+.directions__icon--website img {
+	width: 57px;
+	height: 57px;
+}
+
+.directions__icon--outsourcing img {
+	width: 61px;
+	height: 57px;
+}
+
+.directions__icon--engineering img {
+	width: 65px;
+	height: 64px;
+}
+
+.directions__icon--consulting img {
+	width: 66px;
+	height: 66px;
+}
+
+.directions__icon--socialmedia img {
+	width: 65px;
+	height: 64px;
+}
+
+.directions__item:hover::after {
+	opacity: 0.7;
+}
+
+.directions__item:hover {
+	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.directions__item:hover .directions__name {
+	color: #08397F;
+}
+
+.directions__name {
+	font-weight: 700;
+	font-size: 25px;
+	color: #131320;
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	z-index: 2;
+}
+
+.directions__icon {
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.directions__logo {
+	transform: translate(-50%, -50%);
+	background-color: #f8f8f8;
+	display: flex;
+	height: 165px;
+	width: 165px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+}
+
+.directions__logo img {
+	margin: auto;
+	width: 127px;
+	height: 127px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .directions__name {
+		font-size: 12px;
+	}
+
+	.directions__logo {
+		width: 120px;
+		height: 120px;
+		top: 200px;
+	}
+
+	.directions__logo img {
+		margin: auto;
+		width: 85px;
+		height: 85px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.directions__logo {
+		visibility: hidden;
+	}
+}

@@ -1,0 +1,41 @@
+.container{
+    height: 100px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+}
+
+.image{
+    width: 270px;
+    height: 64px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 170px;
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    height: 64px;
+    justify-content: center;
+}
+
+.item-nitg{
+    color: #233247 !important;
+    margin-right: 15px;
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header-flag {
+width: 15px;
+margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #233247!important;
+}

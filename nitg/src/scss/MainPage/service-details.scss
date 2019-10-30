@@ -1,0 +1,81 @@
+.service-image-container{
+    background-image: url(../../assets/home-people-bg.jpg);
+    height: 252px;
+    background-position: center;
+}
+
+.service-container{
+    height: 2800px;
+    background-position: center;
+}
+
+.service-title{
+    color: #ffffff;
+    line-height: 40px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.service-details-image{
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 405px;
+    width: 510px;
+}
+
+.service-item{
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    padding: 40px 30px 0px;
+}
+
+.service-item-title{
+    font-size: 25px;
+    color: #131320;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.service-item-title::after{
+    display: block;
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #233247;
+    margin-top: 15px;
+}
+
+.service-item-subtitle{
+    font-size: 17px;
+    color: #131320;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.service-item-text{
+    align-content: center;
+}
+
+.service-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 500px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.service-item:nth-child(odd){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.service-left {
+    width: 600px;
+}
