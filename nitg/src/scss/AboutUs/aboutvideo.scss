@@ -1,9 +1,16 @@
-.about-video {
-width: "640px";
-height: "360px";
+.about-video-title {
+    font-size: 35px;
+    text-align: left;
+    font-weight: 800;
 }
 
-.about-us-container {
+.about-video {
+    width: "640px";
+    height: "360px";
+}
+
+.about-us-video-container {
+    padding-top: 100px;
     padding-right: 100px;
     padding-left: 100px;
 }

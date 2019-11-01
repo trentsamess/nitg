@@ -1,7 +1,7 @@
 <template>
-  <b-row>
+  <b-row class="about-head-container">
     <b-col xl-3 class="about-us-left">
-      <p>About Us</p>
+      <p class="about-main-title">About Us</p>
       <p>NORTH IT GROUP was founded by us, 3 businessmen from Germany, with the aim to bring together the western european market and demand for digitalization, the vast expertise and creativity of the eastern european IT sector. We want to support the digitalization of small and midsize enterprises across Europe. Besides the IT expertise of our company, we bring together decades of experience in banking, consulting and real industry sectors, thereby enabling us to have a full-scope view on the clients needs regardless of industry and adjust our offer individually.</p>
       <p>NORTH IT	 prepares its clients for the digital age.</p>
       <p>NORTH IT	 speaks German, English, Russian and Armenian.</p>
@@ -66,3 +66,7 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+@import "../../scss/AboutUs/about.scss";
+</style>

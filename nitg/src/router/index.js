@@ -18,6 +18,10 @@ export default new Router({
     {
       path: "/about-us/",
       component: () => import('../views/AboutUs.vue')
+    },
+    {
+      path: "/video/",
+      component: () => import('../components/VideoPlayer.vue')
     }
   ]
 })
