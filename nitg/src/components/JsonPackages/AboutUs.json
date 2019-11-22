@@ -1,0 +1,19 @@
+{
+    "about": [
+        {
+            "title":"About Us",   
+            "id":"accordion-1",
+            "text": "NORTH IT GROUP provides its international clients with IT services and solutions they need to expand or maintain their business in the digital age. Our services include Website Development, IT Outsourcing, Software Engineering and IT Consulting. We are based in Minsk, Belarus and in Berlin, Germany."
+        },
+        {
+            "title":"Our Mission",
+            "id":"accordion-2",
+            "text": "We see the digitalization as both chance and prerequisite. New technologies and new customer behavior disrupt established market structures, while new sectors of economy’s emerging. We want to assist European SMEs to stay competitive and successful facing these new challenges and an incresingly global competition."
+        },
+        {
+            "title":"Our Values:",
+            "id":"accordion-3",
+            "text": "– Client focus: Each client is unique and has unique demands. The IT-infrastructure should see it and be tailor-made according to the needs of the company. We do not offer standardized solutions, but provide you with a tailor-made quality product. – Responsibility: We deliver what we agreed on and when it is due. We don’t do things by halves and we are not late. You have to be able to count on your IT-partner 100%. Unfortunately this is still something met far to seldom in todays IT-sector.– Partnership: You can engage us for single projects, but our main aim is to build up long-lasting and mutually beneficial partnerships with our clients. We are no oppotunistic, we always consider the next steps upcoming, after the current project is finished. We are at Your side, when it counts.– Performance: It is the same for us, as for You: Performance is the foundation for success. We stand for expertise and a high-quality product."
+        }
+    ]
+}

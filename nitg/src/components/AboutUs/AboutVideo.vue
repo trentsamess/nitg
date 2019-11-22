@@ -1,11 +1,17 @@
 <template>
   <div class="about-us-video-container">
     <p class="about-video-title">Video presentation</p>
-      <video class="" width="640" height="360" autoplay="1" preload="metadata" src="https://northitgroup.com/wp-content/uploads/2019/10/Company-video.mp4?_=2" style="width: 1140px; height: 641.25px;" controls></video>
+    <video-player :width="'640px'" :height="'480px'"/>
   </div>
 </template>
 
 <script>
+import VideoPlayer from "../VideoPlayer.vue"
+    export default {
+        components: {
+            VideoPlayer
+        }
+    }
 </script>
 
 <style lang="scss">

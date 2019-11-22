@@ -7,13 +7,14 @@ import './scss/app.scss'
 import BackToTop from 'vue-backtotop'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPhone, faEnvelope, faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faEnvelope, faAngleUp, faPlay, faPauseCircle, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faXing, faTelegramPlane, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.config.productionTip = false
 
 library.add(faInstagram);
+library.add(faPlay);
 library.add(faAngleUp);
 library.add(faXing);
 library.add(faLinkedinIn);
@@ -21,6 +22,9 @@ library.add(faFacebookF);
 library.add(faPhone);
 library.add(faEnvelope);
 library.add(faTelegramPlane);
+library.add(faPauseCircle);
+library.add(faPlus);
+library.add(faMinus);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(BootstrapVue)

@@ -13,27 +13,27 @@
               </li>
             </div>
           </a>
-          <div class="circle">
-            <li class="circle-item">
               <a href="https://www.linkedin.com/company/north-it-group/">
+          <div class="circle">
+            <li class="circle-item">
                 <font-awesome-icon style="color: #fff" :icon="['fab', 'linkedin-in']" size="xs" />
-              </a>
             </li>
           </div>
-          <div class="circle">
-            <li class="circle-item">
+              </a>
               <a href="https://www.xing.com/companies/ooonorthitgroup">
-                <font-awesome-icon style="color: #fff" :icon="['fab', 'xing']" size="xs" />
-              </a>
-            </li>
-          </div>
           <div class="circle">
             <li class="circle-item">
-              <a href="https://www.instagram.com/northitgroup/">
-                <font-awesome-icon style="color: #fff" :icon="['fab', 'instagram']" size="xs" />
-              </a>
+                <font-awesome-icon style="color: #fff" :icon="['fab', 'xing']" size="xs" />
             </li>
           </div>
+              </a>
+              <a href="https://www.instagram.com/northitgroup/">
+          <div class="circle">
+            <li class="circle-item">
+                <font-awesome-icon style="color: #fff" :icon="['fab', 'instagram']" size="xs" />
+            </li>
+          </div>
+              </a>
         </div>
       </div>
       <div class="footer-company">

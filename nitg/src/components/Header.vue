@@ -2,18 +2,18 @@
   <b-container>
     <b-navbar>
       <b-navbar-brand>
-        <img src="../assets/NorthLogo.png" alt="logo" class="image" />
+        <a href="/"><img src="../assets/NorthLogo.png" alt="logo" class="image" /></a>
       </b-navbar-brand>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto" style="color:#233247;">
-          <b-nav-item href="#" class="item-nitg">HOME</b-nav-item>
-          <b-nav-item href="#" class="item-nitg">ABOUT US</b-nav-item>
+          <b-nav-item href="/" class="item-nitg">HOME</b-nav-item>
+          <b-nav-item href="/about-us" class="item-nitg">ABOUT US</b-nav-item>
           <b-nav-item href="#" class="item-nitg">NEWS</b-nav-item>
           <b-nav-item-dropdown text="PRODUCTS & SERVICES" right class="item-nitg">
-            <b-dropdown-item href="#" class="item-nitg">Website development</b-dropdown-item>
-            <b-dropdown-item href="#" class="item-nitg">IT Outsourcing</b-dropdown-item>
-            <b-dropdown-item href="#" class="item-nitg">Software Engineering</b-dropdown-item>
-            <b-dropdown-item href="#" class="item-nitg">IT Consulting</b-dropdown-item>
+            <b-dropdown-item href="/website-development" class="item-nitg">Website development</b-dropdown-item>
+            <b-dropdown-item href="/it-outsourcing" class="item-nitg">IT Outsourcing</b-dropdown-item>
+            <b-dropdown-item href="/software-engineering" class="item-nitg">Software Engineering</b-dropdown-item>
+            <b-dropdown-item href="/it-consulting" class="item-nitg">IT Consulting</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="#" class="item-nitg">CONTACT US</b-nav-item>
           <b-nav-item-dropdown text="EN" right class="item-nitg">

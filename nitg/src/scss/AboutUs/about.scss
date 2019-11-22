@@ -12,3 +12,12 @@
 .about-us-right {
     padding-top: 70px;
 }
+
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+  display: none;
+}
+
+.accordion-button {
+    color: #21202e !important;
+}

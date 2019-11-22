@@ -1,0 +1,35 @@
+.services-contacts-image-container {
+        background-image: url(../assets/services-contacts-backgroung.jpg);
+        height: 400px;
+        background-position: center;
+}
+
+.service-contacts-row {
+        display: flex;
+}
+
+.services-contacts-title {
+        font-size: 30px;
+        line-height: 48px;
+        text-align: center;
+        font-weight: 700;
+        padding-top: 65px;
+        padding-right: 320px;
+}
+
+.services-contacts-left {
+        padding-top: 50px;
+        padding-left: 620px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.services-contacts-right {
+        width: 500px;
+        height: 336px;
+        padding: 50px 300px; 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}

@@ -21,7 +21,27 @@ export default new Router({
     },
     {
       path: "/video/",
-      component: () => import('../components/VideoPlayer.vue')
-    }
+      component: () => import('../components/Video.vue')
+    },
+    {
+      path: "/website-development/",
+      component: () => import('../views/WebsiteDevelopment.vue')
+    },
+    {
+      path: "/it-outsourcing/",
+      component: () => import('../views/ITOutsourcing.vue')
+    },
+    {
+      path: "/software-engineering/",
+      component: () => import('../views/SoftwareEngineering.vue')
+    },
+    {
+      path: "/it-consulting/",
+      component: () => import('../views/ITConsulting.vue')
+    },
+    {
+      path: "/careers/",
+      component: () => import('../views/Career.vue')
+    },
   ]
 })

@@ -9,8 +9,8 @@
           <p class="service-item-text">{{item.text}}</p>
           <button class="contact-button">Read more</button>
         </div>
-        <div class="service-right">
-          <img :src="item.img" class="service-details-image" />
+        <div class="service-right" :style="`height: 400px; width: 400px; background-size: cover; background: url(${item.img}) top center no-repeat`">
+          <!-- <img :src="item.img" class="service-details-image" /> -->
         </div>
       </div>
     </div>

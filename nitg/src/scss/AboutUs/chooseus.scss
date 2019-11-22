@@ -1,0 +1,57 @@
+.contact-container{
+    background-color:#fff
+}
+
+.contacts-bottom{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.contact-icon{
+    color: #233247;
+}
+
+.chooseus-left{
+    width: 525px;
+    height: 373px;
+    border: 1px solid rgb(213, 213, 213);
+    background-image: url(../../assets/reading-lady.jpg);
+
+}
+
+.chooseus-right{
+    width: 525px;
+    height: 400px;
+    padding-left: 20px;
+    border: 1px solid rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.contact-info{
+    text-align: center;
+}
+
+.choose-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.choose-row {
+    display: flex;
+}
+
+.choose-subtitle {
+    font-size: 20px;
+}
+
+.choose-image {
+    width: 75px;
+    height:75px;
+}

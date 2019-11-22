@@ -10,7 +10,10 @@
 }
 
 .about-us-video-container {
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,.23));;
 }

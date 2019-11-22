@@ -9,36 +9,23 @@
     </b-col>
     <b-col xl-3 class="about-us-right">
       <div role="tablist">
-        <b-card no-body class="mb-1">
+        <b-card no-body class="mb-1"  v-for="(item, i) in about" :key="i">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-1 variant="info">Accordion 1</b-button>
+            <b-button block class="accordion-button" href="#" v-b-toggle="`${item.id}`" >
+              <span>
+                {{ item.title}}
+              </span>
+              <span class="when-opened">
+                <font-awesome-icon color="#fff" :icon="['fas', 'minus']"></font-awesome-icon>
+              </span>
+              <span class="when-closed">
+                <font-awesome-icon color="#fff" :icon="['fas', 'plus']"></font-awesome-icon>
+              </span>
+            </b-button>
           </b-card-header>
-          <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+          <b-collapse :id="item.id" :visible="i === 0" accordion="my-accordion" role="tabpanel">
             <b-card-body>
-              <b-card-text>NORTH IT GROUP provides its international clients with IT services and solutions they need to expand or maintain their business in the digital age.
-Our services include Website Development, IT Outsourcing, Software Engineering and IT Consulting. We are based in Minsk, Belarus and in Berlin, Germany.</b-card-text>
-            </b-card-body>
-          </b-collapse>
-        </b-card>
-
-        <b-card no-body class="mb-1">
-          <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-2 variant="info">Accordion 2</b-button>
-          </b-card-header>
-          <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
-            <b-card-body>
-              <b-card-text>{{ text }}</b-card-text>
-            </b-card-body>
-          </b-collapse>
-        </b-card>
-
-        <b-card no-body class="mb-1">
-          <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-3 variant="info">Accordion 3</b-button>
-          </b-card-header>
-          <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
-            <b-card-body>
-              <b-card-text>{{ text }}</b-card-text>
+              <b-card-text>{{ item.text }}</b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
@@ -49,20 +36,18 @@ Our services include Website Development, IT Outsourcing, Software Engineering a
 
 
 <script>
+  import AboutUs from "../JsonPackages/AboutUs.json";
 export default {
   data() {
     return {
-      text: `
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-          richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-          brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-          tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-          assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-          wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-          vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-          synth nesciunt you probably haven't heard of them accusamus labore VHS.
-        `
-    };
+      id: 3,
+      about: AboutUs.about
+    }
+  },
+  methods: {
+    emitCollapse(id) {
+      this.$root.$emit('bv::toggle::collapse', id)
+    }
   }
 };
 </script>
